@@ -1,0 +1,22 @@
+﻿body {
+}
+
+div {
+    width: 300px;
+    height: 350px;
+    border: 1px dashed #000;
+    height: 50px;
+    width: 350px
+}
+
+.imgleft {
+    float: left;
+    height:90%;
+    width: 50%;
+}
+
+.imgright {
+    float: right;
+    height: 90%;
+    width: 50%;
+}

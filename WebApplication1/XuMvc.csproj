@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="log4net" Version="2.0.12" />
+    <PackageReference Include="vue" Version="2.6.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\XunDll\XuDal.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="vue\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Image\lbxx.jpg" />
+  </ItemGroup>
+
+</Project>
